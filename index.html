@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trợ Lý Ảo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=plsykC9g"></script>
+</head>
+<body>
+    <div id="chatbot">
+        <h1>Trợ Lý Ảo</h1>
+        <div id="chat-window">
+            <div id="output"></div>
+        </div>
+        <!-- Form to wrap the buttons and prevent default submission behavior -->
+        <form id="chat-form" onsubmit="return false;">
+            <button id="start-btn">Bắt đầu nghe</button>
+            <button id="stop-btn" disabled>Dừng nghe</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
